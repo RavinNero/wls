@@ -1,0 +1,27 @@
+{
+    "name": "ravin/wls_test",
+    "description": "White Limo service request",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ravin M. Moreno",
+            "email": "ravinmenezes@outlook.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "source\\": "source/",
+            "App\\Models\\": "app/models"
+        },
+        "files":[
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "^1.0"
+    }
+}
